@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+ 	<head>
+  	<title>Задание 6</title> 
+ 	</head>
+
+ 	<body>
+		<form method="POST" action="mailto:zhenechka_grunin@mail.ru" subject="ВАША ТЕМА" enctype="text/plain" encoding="windows-1251">
+		<p><h1>Анкета посетителя ресторана</h1></p>
+		<p><h3>Контактная информация</h3></p>
+		<p><legend>Имя</legend><input text></p>
+		<p><legend>Телефон</legend><input text></p>
+		<p><legend>E-mail</legend><input type="email"></p>
+		<p><legend>Дата посещения</legend><input type="date"></p>
+		<p><b>Персональная информация</b></p>
+			<p><legend>Возраст</legend><input text></p>
+			<p><legend>Любимая кухня</legend><select><option>Русская</option><option>Английская</option><option>Другая</option></select></p>
+			<p><legend>Какие блюда вы бы хотели увидеть в меню</legend><textarea></textarea></p>
+			<p><b>Почему вы выбрали наше заведение?</b></p>
+			<p><img src="https://png.pngtree.com/png-vector/20191104/ourlarge/pngtree-checkmark-icon-green-color-png-image_1952984.jpg" width="20" height="20" align="left" vspace="3" hspace="3"><input type="radio" name="answer" value="a1"> Недалеко от работы</p>
+			<p><img src="https://png.pngtree.com/png-vector/20191104/ourlarge/pngtree-checkmark-icon-green-color-png-image_1952984.jpg" width="20" height="20" align="left" vspace="3" hspace="3"><input type="radio" name="answer" value="a2"> Реклама</p>
+			<p><img src="https://png.pngtree.com/png-vector/20191104/ourlarge/pngtree-checkmark-icon-green-color-png-image_1952984.jpg" width="20" height="20" align="left" vspace="3" hspace="3"><input type="radio" name="answer" value="a3"> Посоветовали</p>
+			<p><b>Вы будете рекомендовать наше заведение?</b></p>
+			<p><img src="https://png.pngtree.com/png-vector/20191104/ourlarge/pngtree-checkmark-icon-green-color-png-image_1952984.jpg" width="20" height="20" align="left" vspace="3" hspace="3" onclick="document.getElementById('myInput').value = ''"><input type="radio" name="rec" value="b1" id="myInput"> Да</p>
+			<p><img src="https://png.pngtree.com/png-vector/20191104/ourlarge/pngtree-checkmark-icon-green-color-png-image_1952984.jpg" width="20" height="20" align="left" vspace="3" hspace="3"><input type="radio" name="rec" value="b2"> Нет</p>
+
+		<p><input type="reset"> <input type="submit"></p>
+		</form>
+	</body>
+</html>
