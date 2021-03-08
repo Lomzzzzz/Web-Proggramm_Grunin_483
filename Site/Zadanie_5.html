@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+	<meta charset="utf-8">
+	<title>Задание 5</title>
+	<style>
+		.big { font-size: 3em; }
+		.tex { font-family: serif; letter-spacing: -0.1em; }
+		.e { vertical-align: -0.2em; }
+		.j { color: red; }
+		.y { color: blue; }
+		.x { color: green; }
+
+		body { font-family: Arial; }
+		.blue { color: blue; }
+		.green { color: green; }
+		.red { color: red; }
+		.grey { color: grey; }
+		.chart { color: black; background-color: lightgrey; }
+		.box { width: 530px; }
+		.code { background-color: lightgrey; }
+		.curs { font-style: italic; color: grey; opacity: 0.4; font-weight: bolder; letter-spacing: 0.035em; }
+		.bold { font-weight: bolder; }
+		.code1 { background-color: lightgrey; overflow-x: scroll; }
+
+		body { margin: 0; }
+		.obwodka { margin: 25px; font-size: 25px; font-family: Arial; border: 1px solid #000; width: 175px; }
+		.white { color: #fff; background-color: #000; }
+
+		.button {
+			width: 150px;
+			height: 50px;
+			background-color: #000000;
+			margin: 50px;
+			text-transform: uppercase;
+			text-align: center;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			box-shadow: 5px 5px 0 #f0f0f0;
+			}
+		buttons {
+			display: flex;
+			justify-content: center;
+			}
+	</style>
+</head>
+<body>
+	<div class="up"> <p> <a  href="index.html"> Главная </a> </p> </div>
+	<p> Задание 1 </p>
+	<p class="big"><span class="j">J</span>o<span class="y">y</span> of <span class="tex">T<span class="e">E</span><span class="x">X</span></span></p>
+	
+	<p> Задание 2 </p>
+	<div class="box">
+		<h3>Creating chat</h3>
+		<p class="grey">To create a chart, we need to instantiate the <span class="chart">Chart</span> class. To do this, we need<br>
+		to pass in the 2d context of where we want to draw the chart. Here's an<br>
+		example.
+		</p>
+		<p class="code"><span class="blue">&lt;canvas</span> <span class="green">id=</span><span class="red">"myChart"</span> <span class="green">width=</span><span class="red">"400"</span> <span class="green">height=</span><span class="red">"400"</span><span class="blue">&gt;&lt;/canvas&gt;</span>
+		</p>
+		<p class="code">
+			<span class="curs">// Get the context of the canvas element we want to select</span><br>
+			<span class="bold">var</span> ctx = <span class="blue">document</span>.getElementByld(<span class="red">"myChart"</span>).getContext(<span class="red">"2d"</span>);<br>
+			<span class="bold">var</span> myNewChart - <span class="bold">new</span> Chart(ctx).PolarArea(data);
+		</p>
+		<p class="grey">
+			We can also get the context of our canvas with JQuery. To do this, we need to<br> 
+			get the DOM node out of the jQuery collection, and call the <span class="chart">getContext("2d")</span><br> 
+			method on that.
+		</p>
+		<p class="code1">
+			<span class="curs">// Get the context with jQuery - using jQuery's .get() method.</span><br>
+			<span class="bold">var</span> ctx = &#36;(<span class="red">"#myChart"</span>).get(<span class="blue">0</span>).GetContext(<span class="red">"2d"</span>);<br>
+			<span class="curs">// This will get the firt returned node in the jQuery collection</span><br>
+			<span class="bold">var</span> myNewChart = <span class="bold">new</span> Chart(ctx);
+		</p>
+		<p class="grey">
+			After we've instantiated the Chart class on the canvas we want to draw on, Chart.js will handle the scaling for retina displays.
+		</p>
+	</div>
+	<p> Задание 3 </p>
+	<div class="obwodka"0>
+		<p> BLACK <span class="white"> WHITE </span> </p>
+	</div>
+	<p> Задание 4 </p>
+	<div class="buttons">
+		<div class="button"><a href="#">Отправить</a></div>
+		<div class="button"><a href="#">Отправить</a></div>
+		<div class="button"><a href="#">Отправить</a></div>
+	</div>
+	<p> Задание 5 </p>
+	<div class="form1">
+		<div class="form2">
+			<h2>Написать нам</h2>
+			<form>
+				<input type="text" name="name" class="pole" placeholder="Username">
+				<input type="text" name="mail" class="pole" placeholder="Email">
+				<input type="text" name="comment" class="pole2" placeholder="Сообщение...">
+				<input type="submit" name="knopka" class="button">
+			</form>
+		</div>
+	</div>
+	<p> Задание 6 </p>
+	<table class="table1">
+		<tr class="blue white">
+			<th class="padding">Company</th>
+			<th class="align">Q1</th>
+			<th class="align">Q2</th>
+			<th class="align">Q3</th>
+			<th class="align">Q4</th>
+		</tr>
+		<tr class="lightblue">
+			<td class="blue white padding">Microsoft</td>
+			<td class="text">20.3</td>
+			<td class="text">30.5</td>
+			<td class="text">23.5</td>
+			<td class="text">40.3</td>
+		</tr>
+		<tr class="lightblue">
+			<td class="blue white padding">Google</td>
+			<td class="text">50.2</td>
+			<td class="text">40.63</td>
+			<td class="text">45.23</td>
+			<td class="text">39.3</td>
+		</tr>
+		<tr class="lightblue">
+			<td class="blue white padding">Apple</td>
+			<td class="text">25.4</td>
+			<td class="text">30.2</td>
+			<td class="text">33.3</td>
+			<td class="text">36.7</td>
+		</tr>
+		<tr class="lightblue">
+			<td class="blue white padding">IBM</td>
+			<td class="text">20.4</td>
+			<td class="text">15.6</td>
+			<td class="text">22.3</td>
+			<td class="text">29.3</td>
+		</tr>
+	</table>
+		<table class="table2">
+		<tr class="darkblue yellow">
+			<th class="padding2">Company</th>
+			<th class="align2">Q1</th>
+			<th class="align2">Q2</th>
+			<th class="align2">Q3</th>
+			<th class="align2">Q4</th>
+		</tr>
+		<tr class="darkblue white">
+			<td class="padding3">Microsoft</td>
+			<td class="text2 border">20.3</td>
+			<td class="text2 border">30.5</td>
+			<td class="text2 border">23.5</td>
+			<td class="text2">40.3</td>
+		</tr>
+		<tr class="darkblue white">
+			<td class="padding3">Google</td>
+			<td class="text2 border">50.2</td>
+			<td class="text2 border">40.63</td>
+			<td class="text2 border">45.23</td>
+			<td class="text2">39.3</td>
+		</tr>
+		<tr class="darkblue white">
+			<td class="white padding3">Apple</td>
+			<td class="text2 border">25.4</td>
+			<td class="text2 border">30.2</td>
+			<td class="text2 border">33.3</td>
+			<td class="text2">36.7</td>
+		</tr>
+		<tr class="darkblue white">
+			<td class="white padding3">IBM</td>
+			<td class="text2 border">20.4</td>
+			<td class="text2 border">15.6</td>
+			<td class="text2 border">22.3</td>
+			<td class="text2">29.3</td>
+		</tr>
+	</table>
+	<table class="table3">
+		<tr>
+			<th colspan="3" class="head">Холодные закуски</th>
+		</tr>
+		<tr class="grey">
+			<th class="head2 bottom">Наименование</th>
+			<th class="bottom width">Выход, гр.</th>
+			<th class="bottom width">Цена, руб.</th>
+		</tr>
+		<tr class="grey color1">
+			<td class="left">Ассорти из овощей, зелени и сыра</td>
+			<td class="text">250</td>
+			<td class="text">190</td>
+		</tr>
+		<tr class="grey color2">
+			<td class="left">Ассорти мясное</td>
+			<td class="text">250</td>
+			<td class="text">300</td>
+		</tr>
+		<tr class="grey color1">
+			<td class="left">Ассорти рыбное (семга с/c, форель c/c)</td>
+			<td class="text">250</td>
+			<td class="text">350</td>
+		</tr>
+		<tr class="grey color2">
+			<td class="left">Ассорти грибное</td>
+			<td class="text">120</td>
+			<td class="text">150</td>
+		</tr>
+		<tr class="grey color1">
+			<td class="left">Соления из бочки (помидоры, огурцы,<br> перец, чеснок, капуста)</td>
+			<td class="text">250</td>
+			<td class="text">180</td>
+		</tr>
+	</table>
+	<p> Задание 7 </p>
+<div class="form3">
+	<div class="list">
+		<div class="ellipse">
+			<p class="number">1</p>
+		</div>
+		<div class="line">
+			<p class="text">Элемент списка</p>
+		</div>
+	</div>
+	<div class="list">
+		<div class="ellipse">
+			<p class="number">2</p>
+		</div>
+		<div class="line">
+			<p class="text">Элемент списка</p>
+		</div>
+	</div>
+	<div class="list">
+		<div class="ellipse">
+			<p class="number">3</p>
+		</div>
+		<div class="line">
+			<p class="text">Элемент списка</p>
+		</div>
+	</div>
+	<div class="list">
+		<div class="ellipse">
+			<p class="number">4</p>
+		</div>
+		<div class="line">
+			<p class="text">Элемент списка</p>
+		</div>
+	</div>
+	<div class="list">
+		<div class="ellipse">
+			<p class="number">5</p>
+		</div>
+		<div class="line">
+			<p class="text">Элемент списка</p>
+		</div>
+	</div>
+</div>
+<div class="form4">
+	<div class="list">
+		<div class="ellipse2">
+			<p class="number">1</p>
+		</div>
+		<div class="line2">
+			<p class="text">Элемент списка</p>
+		</div>
+	</div>
+	<div class="list">
+		<div class="ellipse2">
+			<p class="number">2</p>
+		</div>
+		<div class="line2">
+			<p class="text">Элемент списка</p>
+		</div>
+	</div>
+	<div class="list">
+		<div class="ellipse2">
+			<p class="number">3</p>
+		</div>
+		<div class="line2">
+			<p class="text">Элемент списка</p>
+		</div>
+	</div>
+	<div class="list">
+		<div class="ellipse2">
+			<p class="number">4</p>
+		</div>
+		<div class="line2">
+			<p class="text">Элемент списка</p>
+		</div>
+	</div>
+	<div class="list">
+		<div class="ellipse2">
+			<p class="number">5</p>
+		</div>
+		<div class="line2">
+			<p class="text">Элемент списка</p>
+		</div>
+	</div>	
+</div>
+	<p> Задание 12 </p>
+	<div class="container">
+		<div class="headline">
+			<h1>Блог: техническое</h1>
+		</div>
+		<div class="other">
+				<img src="images/calendar.png" class="icon">
+				<p>Опубликовано: <b>22/12.2011</b></p>
+				<img src="images/opublic.png" class="icon">
+				<p>Категория: <b>Блог</b></p>
+				<img src="images/comments.png" class="icon right">
+				<p class="right"><b>Оставить комментарий</b></p>
+		</div>
+		<div class="words">
+			<p>blog</p>
+			<p>lytdybr</p>
+			<p>thoughts</p>
+		</div>
+		<div class="info">
+			<img src="images/Wall-e.png" class="robot">
+			<div class="text">
+				<p>Друзья, нужна помощь!</p>
+				<p>Бес попутал и я пару месяцев назад решил &laquo;оптимизировать&raquo; файл<br>
+				robot.txt на сайте. Дооптимизировался!
+				</p>
+				<p><a href="#">Читать дальше</a></p>
+			</div>
+		</div>
+	</div>
+	<div class="up"><a href="#"> Наверх </a></div>
+</body>
+</html>

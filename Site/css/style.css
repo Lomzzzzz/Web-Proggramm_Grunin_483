@@ -1,0 +1,329 @@
+body 
+.form1 {
+	background-color: #f0f0f0;
+	width: 400px;
+	border-radius: 25px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+h2 {
+	margin: 0;
+	color: grey;
+	margin: 20px 0;
+	padding-right: 130px;
+	}
+.form2 {
+	width: 300px;
+	background-color: inherit;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+	}
+
+.pole {
+	border-radius: 50px;
+	border: none;
+	background-color: lightgrey;
+	padding: 15px 110px 15px 20px;
+	margin-bottom: 15px;
+	}
+
+.pole2{
+	border-radius: 20px;
+	border: none;
+	background-color: lightgrey;
+	padding: 15px 110px 70px 20px;
+	margin-bottom: 30px;
+	}
+
+.button {
+	width: 270px;
+	border: none;
+	border-radius: 50px;
+	color: #fff;
+	background-color: #f79b72;
+	padding: 10px 0;
+	box-shadow: 0 5px #d3a08f;
+	font-weight: bold;
+	margin-bottom: 20px;
+	}
+.blue {
+	background-color: #a3cee9;
+	}
+
+.lightblue {
+	background-color: #d3e7f4;
+	}
+
+.white {
+	color: #fff;
+	}
+
+.padding {
+	padding: 16px 80px 16px 20px;
+	}
+
+.align {
+	padding: 16px 40px 16px 40px;
+	}
+
+.text {
+	text-align: center;
+	}
+
+.table1 {
+	border-spacing: 1px;
+	}
+
+.table2, .table3 {
+	border-spacing: 0;
+	}
+
+.table2 td {
+	border-top: 1px solid #00cc99;
+	}
+
+.yellow {
+	color: #ffb83c;
+	}
+
+.darkblue {
+	background-color: #1a2b47;
+	}
+
+.table2 {
+	font-size: 14px;
+	}
+
+.padding2 {
+	padding: 16px 72px 16px 17px;
+	}
+
+.align2 {
+	padding: 16px 68px 16px 16px;
+	}
+
+.padding3 {
+	padding: 12px 76px 12px 17px;
+	border-right: 1px solid #00cc99;
+	}
+
+.text2 {
+	padding-left: 17px;
+	}
+
+.border {
+	border-right: 1px solid #00cc99;
+	}
+
+table {
+	margin: 30px;
+	}
+
+.head {
+	background-color: #64d5c1;
+	color: white;
+	width: 500px;
+	height: 35px;
+	text-align: left;
+	padding-left: 10px;
+	}
+
+.head2 {
+	text-align: left;
+	padding-left: 10px;
+	width: 350px;
+	padding-top: 0;
+	}
+
+.grey {
+	color: #6a6461;
+	}
+
+.bottom {
+	border-bottom: 3px solid #bdb3a0;
+	padding-bottom: 15px;
+	}
+
+.width {
+	width: 75px;
+	padding-top: 20px;
+	}
+
+.color1 {
+	background-color: #e9e7d1;
+	}
+
+.left {
+	padding: 10px 0 10px 10px;
+	}
+
+.color2 {
+	background-color: #ffffff;
+	}
+
+.ellipse {
+	width: 40px;
+	height: 40px;
+	background-color: #64d5c1;
+	border-radius: 100px;
+	border: 3px solid #fff;
+	position: relative;
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.line {
+	height: 40px;
+	background-color: #ded3cb;
+	position: absolute;
+	z-index: 1;
+	margin-top: 3px;
+	left: 20px;
+	display: flex;
+	align-items: center;
+}
+
+p {
+	margin: 0;
+}
+
+.number {
+	font-size: 20px;
+}
+
+.text {
+	padding: 0 100px 0 40px;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.form4 {
+	margin-top: 50px;
+}
+
+.line2 {
+	height: 40px;
+	background-color: #d4d5db;
+	position: absolute;
+	z-index: 1;
+	margin-top: 3px;
+	left: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.ellipse2 {
+	width: 40px;
+	height: 40px;
+	background-color: #8e98a4;
+	border: 3px solid #fff;
+	border-right: 6px solid #fff;
+	position: relative;
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+
+h1 {
+	margin: 0;
+}
+
+.container {
+	padding: 15px;
+	width: 815px;
+	height: 340px;
+	background-color: #fff;
+	margin: 50px;
+}
+
+.other {
+	display: flex;
+	margin-top: 20px;
+}
+
+
+.icon {
+	width: 17px;
+	height: 17px;
+}
+
+.other p {
+	margin: 0 15px 0 5px;
+	font-size: 15px;
+	color: grey;
+}
+
+.other p:last-child {
+	margin-right: 0;
+}
+
+.right {
+	margin-left: 255px;
+}
+
+.words {
+	display: flex;
+	margin-left: 10px;
+}
+
+.words p {
+	font-size: 15px;
+	color: #fff;
+	background-color: grey;
+	padding: 2px 4px;
+	font-weight: bold;
+	margin: 7px 5px;
+}
+
+.robot {
+	width: 220.66px;
+	height: 182.66px;
+	margin: 30px;
+}
+
+.info {
+	display: flex;
+}
+
+.text p {
+	margin: 35px 0;
+	font-size: 15px;
+}
+
+.text p:last-child {
+	margin-top: 90px;
+}
+
+.text a {
+	text-decoration: none;
+	font-style: italic;
+}
+
+.up {
+	width: 150px;
+	border: none;
+	border-radius: 50px;
+	color: #ffffff;
+	background-color: #f0f0f0;
+	padding: 10px;
+	font-weight: bold;
+	margin: auto;
+	font-size: 200%
+	}
